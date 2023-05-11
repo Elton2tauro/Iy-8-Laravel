@@ -21,29 +21,31 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse" id="navbar">
-                <a href="/" class="navbar-brand">
-                    <img src="/img/hdcevents" alt="HDC Eventos">
-                </a>
-                <ul class="navbar-navi">
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">Eventos</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <img src="/img/cursoIcon.png" alt="" srcset="">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Criar Evento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">Entrar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">Cadastrar</a>
+                        <a class="nav-link" href="/events/create">Criar Evento</a>
                     </li>
 
+                    <a href="/events/contato" class="nav-link">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/events/produto" class="nav-link">Cadastrar</a>
+                    </li>
                 </ul>
-            </div>
 
+            </div>
         </nav>
+
+
+
+
 
     </header>
 
@@ -51,6 +53,9 @@
     <footer>
         <p>HDC Events &copy; 2020</p>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
